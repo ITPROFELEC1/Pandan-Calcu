@@ -1,0 +1,45 @@
+body{
+    background-color:#f47878;
+    font-family:sans-serif;
+}
+h1{
+  text-align: center;
+}
+table{
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    border-left:4px groove black;
+    border-right:4px groove black;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #b8ae87;
+}
+input[type="button"]{
+    height:50px;
+    width:100%;
+    background-color:#f9ce23;
+    float:left;
+    cursor:pointer;
+    line-height:50px;
+    border:1px solid black;
+    border-radius:3px;
+}
+input[type="button"]:hover{
+    color:#26c281;
+    background-color:#f5972d;
+}
+input[type="text"]{
+    width:99.3%;
+    height:50px;
+    border:1px solid black;
+    border-radius:3px;
+    font-size:15px;
+    font-weight:bold;
+}
+#solve{
+    background-color:#faebd9;
+}
+input[onclick="wipe()"]{
+    background-color:red;
+}
